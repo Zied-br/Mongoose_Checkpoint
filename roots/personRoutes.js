@@ -69,15 +69,4 @@ router.get("/searchByFood", (req, res) => {
 });
 
 module.exports = router;
-/*
-    .sort({ name: 1 })
-    .limit(2)
-    .select("-age")
-    .exec((err, data) => {
-      if (err) {
-        console.log(err);
-        res.json({ msg: "error" });
-      } else {
-        res.json(data);
-      }
-    });*/
+
